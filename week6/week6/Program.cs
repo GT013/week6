@@ -10,13 +10,13 @@ namespace week6
     {
         static void Main()
         {
-            sayHello("Hello World.");
+            Number(60030049);
             Console.ReadLine();
         }
 
-        static void sayHello(string str)
+        static void Number(int num)
         {
-            Console.WriteLine(str);
+            Console.WriteLine(num);
         }
 
 
