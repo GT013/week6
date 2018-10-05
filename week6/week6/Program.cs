@@ -10,12 +10,13 @@ namespace week6
     {
         static void Main(string[] args)
         {
-            sayHello();
+            sayHello("Hello");
             Console.ReadLine();
         }
-        static void sayHello()
+        static void sayHello(string str)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(str);
         }
+
     }
 }
